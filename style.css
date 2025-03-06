@@ -1,0 +1,110 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    background: url('https://i.pinimg.com/1200x/52/d8/d1/52d8d1f436ee3cdca55fdc1a55937c3c.jpg')
+    no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 1.8;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.highlight {
+    font-size: 24px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 8px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ff0000;
+}
+
+ul, ol {
+    background: rgba(20, 20, 20, 0.8);
+    padding: 25px;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ff0000;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #ff0000;
+}
+
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 25px;
+    border-left: 6px solid #ff0000;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    font-size: 22px;
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff;
+}
